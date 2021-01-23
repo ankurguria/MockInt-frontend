@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,70|Muli:300,400,700&display=swap');
+
+h1 {
+  font-family: 'Fira Sans', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 2.2em;
+  color: #191970;
+}
+
+h2 {
+  font-family: 'Fira Sans', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #191970;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: 'Fira Sans', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #191970;
+  letter-spacing: 1px;
+}
+
+.purple {
+  color: #191970;
+}
+
+.underline {
+  border-bottom: solid 1px white;
+  width: 100px;
+}
+
+.vertical-space {
+  padding: 4% 0;
+}
+
+p {
+  font-family: 'Muli', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+header {
+  margin: 15px 0;
+}
+
+.logo {
+  font-family: 'Muli', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #191970;
+  margin: 10px 0;
+}
+
+.inline {
+  display: inline;
+}
+
+/* 
+.white {
+  color: white;
+} */

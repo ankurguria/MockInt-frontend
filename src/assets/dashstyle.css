@@ -1,0 +1,102 @@
+body,
+html {
+  height: 100%;
+}
+/* workaround modal-open padding issue */
+.dash-btn
+{
+  display:inline-flex;
+  float:right; 
+  border-radius: 20px;
+  padding: 14px 40px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+body.modal-open {
+  padding-right: 0 !important;
+}
+
+#sidebar {
+  padding-left: 0;
+}
+/*
+* Off Canvas at medium breakpoint
+* --------------------------------------------------
+*/
+
+@media screen and (max-width: 48em) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -33%;
+  }
+  .row-offcanvas-left.active {
+    left: 33%;
+    margin-left: -6px;
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 33%;
+    height: 100%;
+  }
+}
+/*
+* Off Canvas wider at sm breakpoint
+* --------------------------------------------------
+*/
+
+@media screen and (max-width: 34em) {
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -45%;
+  }
+  .row-offcanvas-left.active {
+    left: 45%;
+    margin-left: -6px;
+  }
+  .sidebar-offcanvas {
+    width: 45%;
+  }
+}
+
+.card {
+  overflow: hidden;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-deck{
+  flex-direction: column;
+  
+}
+.card-block .rotate {
+  z-index: 8;
+  float: right;
+  height: 100%;
+}
+.card-columns
+{
+  flex-direction: column;
+}
+.card-block .rotate i {
+  color: rgba(20, 20, 20, 0.15);
+  position: absolute;
+  left: 0;
+  left: auto;
+  right: -10px;
+  bottom: 0;
+  display: block;
+  -webkit-transform: rotate(-44deg);
+  -moz-transform: rotate(-44deg);
+  -o-transform: rotate(-44deg);
+  -ms-transform: rotate(-44deg);
+  transform: rotate(-44deg);
+}
+.main{
+  margin-top: 100px;
+  widows: 1024px !important;
+}

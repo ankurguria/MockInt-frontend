@@ -1,0 +1,107 @@
+  
+  .form-container {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 15px 16px .17px rgba(0,0,0,0.05);
+  }
+  
+  .form-container1 {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 80px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 15px 16px .17px rgba(0,0,0,0.05);
+  }
+  
+  input[type="radio"]{
+    -webkit-appearance:none;
+  }
+  .container-form {
+      display:block;
+      margin: auto;
+      position: absolute;
+      margin-top: auto;
+  }
+  #start {
+    display: block;
+    text-align: center;
+    font-family: Montserrat-ExtraBold;
+    font-size: 24px;
+  margin: auto;
+  color: blue;
+   border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  }
+  #info {
+    width: 310px;
+    padding-top: 55px;
+  }
+  
+  .contact100-form-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 24px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 36px;
+  }
+  .lab1{
+      height: 50px;
+      width: auto;
+      border: 2px solid #73AD21;
+      position: relative;
+      margin: 10px;
+      border-radius: 30px;
+    transition: 0.5s;
+    align-items: center;
+    text-align: center;
+   
+  }
+  .lab2{
+    
+      height: 50px;
+      width: auto;
+    border: 2px solid #73AD21;
+      position: relative;
+    margin: 10px;
+    margin-left: 20px;
+      border-radius: 30px;
+    transition: 0.5s;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+   padding-left: 5%;
+   padding-bottom: 10%;
+   padding-right: 5%;
+  }
+  .lab1>span,.lab2>span{
+      font-size: 24px;
+      position: relative;
+      transform: translate(-50%,80%);
+    font-weight: 500;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  input[type="radio"]:checked + label{
+      background-color: #1aa121;
+      color: white;
+      box-shadow: 0 15px 45px rgba(24,249,141,0.2);
+      height:fit-content;
+  }
+  
+.primaryModal {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 32px 11px 6px 5px rgba(0,0,0,0); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 32px 11px 6px 5px rgba(0,0,0,0);
+ 
+}
+.modal-header>button>span {
+  justify-content: flex-start;
+  color:#0e0002;
+}

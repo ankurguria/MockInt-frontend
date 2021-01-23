@@ -1,5 +1,5 @@
 import React from 'react'
-import moment from 'moment'
+import moment from 'moment-timezone'
 function PendingRequestCard(props) {
     
     const acceptRequest = async e =>{
@@ -44,12 +44,12 @@ function PendingRequestCard(props) {
             <div className="card-block " style={{paddingBottom: 0}}>
               <blockquote className="card-blockquote">
                 <h5 style={{marginBottom: 2}}>Type of Interview : {props.interview_type}</h5>
-                <p style={{marginBottom: 2}}>Date : 20-01-2020</p>
+                <p style={{marginBottom: 2}}>Date : {moment(Date.parse(props.preferred_slot)).tz("GMT").format('DD-MM-YYYY')}</p>
                 <button type="button" onClick={e=>{rejectRequest(e)}} className="btn btn-danger dash-btn">Reject</button>
                 <button type="button" onClick={e=> acceptRequest(e)} className="btn btn-success dash-btn">Approve</button>
                 
-                <p style={{marginBottom: 2}}>Time : {moment(Date.parse(props.preferred_slot)).format('hh:mm a')}</p>
-                <p >Interviewee Name : {props.user_id}</p>
+                <p style={{marginBottom: 2}}>Time : {moment(Date.parse(props.preferred_slot)).tz("GMT").format('hh:mm a')}</p>
+                {/* <p >Interviewee Name : {props.user_id}</p> */}
               </blockquote>
             </div>
           </div>

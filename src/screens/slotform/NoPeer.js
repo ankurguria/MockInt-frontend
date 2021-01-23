@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from '../../assets/images/peernotfound.png';
+import Image from '../../assets/images/success.png';
 export class NoPeer extends Component {
     continue = e => {
         e.preventDefault();

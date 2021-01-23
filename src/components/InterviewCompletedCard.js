@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import moment from 'moment';
+import moment from 'moment-timezone';
 import {Modal} from 'react-bootstrap';
 import Feedbackform from './Feedbackform';
 function InterviewCompletedCard(props) {
@@ -38,10 +38,10 @@ function InterviewCompletedCard(props) {
               <div className="card-block " style={{paddingBottom: 20}}>
                 <blockquote className="card-blockquote">
                   <h5 style={{marginBottom: 2}}>Type of Interview : {props.type_of_interview}</h5>
-                  <p style={{marginBottom: 2}}>Date : {moment(Date.parse(props.slot_timestamp)).format('DD-MM-YYYY')}</p>
+                  <p style={{marginBottom: 2}}>Date : {moment(Date.parse(props.slot_timestamp)).tz("GMT").format('DD-MM-YYYY')}</p>
                   <button type="button" className="btn btn-info dash-btn" onClick={e => openModalg(e)}>Give Feedback</button>
                   <button type="button" className="btn btn-success dash-btn" onClick={e => openModals(e)} style={{marginRight:7}}>View Feedback</button>
-                  <p style={{marginBottom: 2}}>Time : {moment(Date.parse(props.slot_timestamp)).format('h : mm a')}</p>
+                  <p style={{marginBottom: 2}}>Time : {moment(Date.parse(props.slot_timestamp)).tz("GMT").format('h : mm a')}</p>
                   <p >{props.is_expert_interview ? "Expert Name" : "Peer Name"} : {props.first_name} {props.last_name}</p>
                 </blockquote>
               </div>

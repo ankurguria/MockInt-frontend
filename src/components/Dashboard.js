@@ -108,7 +108,7 @@ const Dashboard = (props) => {
                 <div className="rotate">
                   <i className="fa fa-user fa-5x"></i>
                 </div>
-                <h6 className="text-uppercase" ><strong><center> Peer to Peer Interview</center></strong></h6>
+                <h4 className="text-uppercase" style={{color:"white"}} ><strong><center> Peer to Peer Interview</center></strong></h4>
                 <br/>
                 <center><button type="button" onClick={e => openModal(e)} id="peer" className="btn btn-info" style={{margin:10}}>Book Now</button> </center>
               </div>
@@ -120,7 +120,7 @@ const Dashboard = (props) => {
                 <div className="rotate">
                   <i className="fa fa-list fa-4x"></i>
                 </div>
-                <h6 className="text-uppercase"> <center><strong>Expert Interview</strong></center></h6><br/>
+                <h4 className="text-uppercase" style={{color:"white"}}> <center><strong>Expert Interview</strong></center></h4><br/>
                 <center><button type="button" onClick={e => openModal(e)} id= "expert" className="btn btn-info" style={{margin:10}}>Book Now</button> </center>
               </div>
             </div>

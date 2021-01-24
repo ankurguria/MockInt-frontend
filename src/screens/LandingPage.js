@@ -44,9 +44,9 @@ function LandingPage(props) {
                         <Grid item lg={6}>
                             <div id="home-slogan">
                                 {/* <h1 className="white">Make YourNext Interview<br /> */}
-                                <Typography  variant="h1" component="h2" gutterBottom> Make Your Next Interview </Typography>
+                                <Typography  variant="h2" component="h2" gutterBottom> Make Your Next Interview </Typography>
                                 {/* <span className="bolder">A perfect One</span> */}
-                                <Typography variant="h3" component="h4" gutterBottom> A Perfect One</Typography>
+                                <Typography variant="h1" component="h4" gutterBottom> A Perfect One</Typography>
                                 <p className="white vertical-space" style={{fontSize:20}}>Make the Best use of our Platform to get ready for any Interview.</p>
                                 
                             </div>

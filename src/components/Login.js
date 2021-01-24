@@ -101,6 +101,7 @@ const Login = (props) => {
             </form>
             <div className="text-center p-t-90">
               <center> <button><Link to="/register" style ={{color:"white"}} className="txt1">Click To Register</Link></button></center>
+              <button><Link to="/" style ={{color:"white"}} className="txt1">Home</Link></button>
             </div>
           </div>
         </div>

@@ -115,17 +115,17 @@ const Dashboard = (props) => {
               </div>
             </div>
           </div>
-          <div className="card card-inverse cardsuccess"  >
+          {data.is_expert && <div className="card card-inverse cardsuccess"  >
             <div className="card-block " style={{backgroundColor:"rgb(47, 108, 201)"}}>
               <h6 className="text-center"> Welcome <span className="text-uppercase">{data.first_name} !</span></h6>
            
-              { data.is_expert && <div> <hr/> <center> <button type="button" className="btn btn-info" onClick={e => openModalp(e)} style={{color:"white", textAlign:'center', borderRadius:"20px", width:"210px"}}>Update Profile</button></center>
-             </div>}
+              <div> <hr/> <center> <button type="button" className="btn btn-info" onClick={e => openModalp(e)} style={{color:"white", textAlign:'center', borderRadius:"20px", width:"210px"}}>Update Profile</button></center>
+             </div>
              
              <hr/>
-            <center> <button type="button" className="btn btn-info" onClick={e => logout(e)} style={{color:"white", textAlign:'center', borderRadius:"20px"}}>Sign Out</button></center>
+            {/*<center> <button type="button" className="btn btn-info" onClick={e => logout(e)} style={{color:"white", textAlign:'center', borderRadius:"20px"}}>Sign Out</button></center>*/}
             </div>
-          </div>
+          </div>}
          </div>
         
         {data.is_expert?(

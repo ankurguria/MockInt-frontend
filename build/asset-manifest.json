@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1afe938a.chunk.css",
+    "main.js": "/static/js/main.2c956511.chunk.js",
+    "main.js.map": "/static/js/main.2c956511.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ebe195db.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ebe195db.js.map",
+    "static/css/2.1e9d62fa.chunk.css": "/static/css/2.1e9d62fa.chunk.css",
+    "static/js/2.9a760e7e.chunk.js": "/static/js/2.9a760e7e.chunk.js",
+    "static/js/2.9a760e7e.chunk.js.map": "/static/js/2.9a760e7e.chunk.js.map",
+    "static/js/3.4ab8efa2.chunk.js": "/static/js/3.4ab8efa2.chunk.js",
+    "static/js/3.4ab8efa2.chunk.js.map": "/static/js/3.4ab8efa2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1e9d62fa.chunk.css.map": "/static/css/2.1e9d62fa.chunk.css.map",
+    "static/css/main.1afe938a.chunk.css.map": "/static/css/main.1afe938a.chunk.css.map",
+    "static/js/2.9a760e7e.chunk.js.LICENSE.txt": "/static/js/2.9a760e7e.chunk.js.LICENSE.txt",
+    "static/media/signup_style.css": "/static/media/Muli-SemiBold.dbbd674e.ttf",
+    "static/media/material-design-iconic-font.min.css": "/static/media/Material-Design-Iconic-Font.bd9b02bf.woff",
+    "static/media/slotmain.css": "/static/media/Montserrat-Regular.2a2d37bf.ttf",
+    "static/media/loginmain.css": "/static/media/Poppins-SemiBold.5981b450.ttf",
+    "static/media/bg-01.2b400a12.jpg": "/static/media/bg-01.2b400a12.jpg",
+    "static/media/bg-registration-form-2.01f8e7a5.jpg": "/static/media/bg-registration-form-2.01f8e7a5.jpg",
+    "static/media/chooseexpert.180a8786.jpg": "/static/media/chooseexpert.180a8786.jpg",
+    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/bootstrap.css": "/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/landingPage.css": "/static/media/header-background.57976c20.jpg",
+    "static/media/homeImg.a86252b8.png": "/static/media/homeImg.a86252b8.png",
+    "static/media/interviewtype.1b7b8797.jpg": "/static/media/interviewtype.1b7b8797.jpg",
+    "static/media/miplog.fdb975a0.jpg": "/static/media/miplog.fdb975a0.jpg",
+    "static/media/peernotfound.a43c2284.png": "/static/media/peernotfound.a43c2284.png",
+    "static/media/slot.5eaea533.jpg": "/static/media/slot.5eaea533.jpg",
+    "static/media/success.2ebbac75.png": "/static/media/success.2ebbac75.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebe195db.js",
+    "static/css/2.1e9d62fa.chunk.css",
+    "static/js/2.9a760e7e.chunk.js",
+    "static/css/main.1afe938a.chunk.css",
+    "static/js/main.2c956511.chunk.js"
+  ]
+}

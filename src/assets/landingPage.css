@@ -1,0 +1,21 @@
+.home-header {
+    margin: 0% 0;
+    background-image: url("../assets/images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-header {
+    width: 90%;
+    margin: -30px 0 -30px 0;
+}
+
+#home-slogan {
+    margin: 10% 5% 10% 0;
+}
+
+.img-home {
+    width: 100%;
+    margin-left: -20px;
+    padding: 0;
+}

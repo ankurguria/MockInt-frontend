@@ -73,21 +73,11 @@ const Dashboard = (props) => {
   return (
     <div>
      <NavBar {...props} first_name={data.first_name} last_name={data.last_name} />
-     <div className="container-fluid" id="main">
+     <div className="container-fluid" id="main" style={{width:"1500px"}}>
     <div className="row row-offcanvas row-offcanvas-left">
       <div className="col-md-3 col-lg-2 sidebar-offcanvas" id="sidebar" role="navigation">
         
-          <div className="card card-inverse cardsuccess" style={{marginTop: 125}} >
-            <div className="card-block " style={{backgroundColor:"rgb(47, 108, 201)"}}>
-              <h6 className="text-center"> Welcome <span className="text-uppercase">{data.first_name} !</span></h6>
-           
-              { data.is_expert && <div> <hr/> <center> <button type="button" className="btn btn-info" onClick={e => openModalp(e)} style={{color:"white", textAlign:'center', borderRadius:"20px"}}>Update Profile</button></center>
-             </div>}
-             
-             <hr/>
-            <center> <button type="button" className="btn btn-info" onClick={e => logout(e)} style={{color:"white", textAlign:'center', borderRadius:"20px"}}>Sign Out</button></center>
-            </div>
-          </div>
+          
       </div>
       <Modal show={modalp} onHide={closeModalp} id="mymodal"  dialogClassName={"primaryModal"} style={{marginTop:'50px'}} size="lg" animation={false}>
           <Modal.Header closeButton style={{float:"left"}}></Modal.Header>
@@ -101,7 +91,7 @@ const Dashboard = (props) => {
       <h3><strong> Welcome <span className="text-uppercase">{data.first_name} !</span> </strong></h3>
         <div className="row mb-3">
           
-          <div className="col-xl-4 col-lg-4" style={{width:"500px", marginLeft:50}} >
+          <div className="col-xl-4 col-lg-4" style={{width:"500px", marginLeft:-20}} >
           
             <div className="card card-inverse" style={{backgroundColor: '#4169E1', height:120}}>
               <div className="card-block">
@@ -114,7 +104,7 @@ const Dashboard = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4" style={{width:500,marginLeft:50}}>
+          <div className="col-xl-4 col-lg-4" style={{width:500,marginLeft:50, marginRight:60}}>
             <div className="card card-inverse " style={{backgroundColor: '#4169E1', height:120}}>
               <div className="card-block ">
                 <div className="rotate">
@@ -125,6 +115,17 @@ const Dashboard = (props) => {
               </div>
             </div>
           </div>
+          {data.is_expert && <div className="card card-inverse cardsuccess"  >
+            <div className="card-block " style={{backgroundColor:"rgb(47, 108, 201)"}}>
+              <h6 className="text-center"> Welcome <span className="text-uppercase">{data.first_name} !</span></h6>
+           
+              <div> <hr/> <center> <button type="button" className="btn btn-info" onClick={e => openModalp(e)} style={{color:"white", textAlign:'center', borderRadius:"20px", width:"210px"}}>Update Profile</button></center>
+             </div>
+             
+             <hr/>
+            {/*<center> <button type="button" className="btn btn-info" onClick={e => logout(e)} style={{color:"white", textAlign:'center', borderRadius:"20px"}}>Sign Out</button></center>*/}
+            </div>
+          </div>}
          </div>
         
         {data.is_expert?(
